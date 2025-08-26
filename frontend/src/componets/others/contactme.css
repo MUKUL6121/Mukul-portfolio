@@ -1,0 +1,13 @@
+.contact_main {
+    max-width: 600px;
+    /* keep it neat on large screens */
+    width: 100%;
+    /* allow shrinking on smaller screens */
+    margin: 0 auto;
+    /* center horizontally */
+    padding: 20px;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 0a1ba109e4250578163d6f2a5f1a3f48653e96f5

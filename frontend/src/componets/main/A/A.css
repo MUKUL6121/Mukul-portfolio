@@ -1,0 +1,135 @@
+#main-container {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    border-radius: 18px;
+    gap: 80px;
+    padding: 20px;
+}
+
+/* Logo rotation animation */
+@keyframes rotateLogo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo.react {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(97, 218, 251, 0.25);
+    background: #fff;
+    padding: 16px;
+    animation: rotateLogo 6s linear infinite;
+    /* slower, smoother spin */
+}
+
+.intro_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.intro_div h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #22223b;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.intro_div h4 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: #4a4e69;
+    font-weight: 500;
+}
+
+.roles {
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+    margin-top: 8px;
+    color: #22223b;
+    font-size: 1.1rem;
+}
+
+#roles_sep {
+    color: #22223b;
+}
+
+/* Highlight colors */
+.highlight-blue {
+    color: #61dafb;
+}
+
+.highlight-green {
+    color: #899810;
+}
+
+.highlight-orange {
+    color: #fca311;
+}
+
+.highlight-purple {
+    color: #b5179e;
+}
+
+.intro_div p {
+    margin-top: 8px;
+    color: #22223b;
+    font-size: 1rem;
+    max-width: 420px;
+}
+
+/* 📱 Responsive */
+@media(max-width:900px) {
+    #main-container {
+        flex-direction: column;
+        /* ✅ stack vertically */
+        text-align: center;
+        gap: 30px;
+    }
+
+    .logo.react {
+        width: 150px;
+        height: 150px;
+        animation: rotateLogo 10s linear infinite;
+        /* ✅ fixed animation */
+    }
+
+    .intro_div h1 {
+        font-size: 22px;
+    }
+
+    .intro_div h4 {
+        font-size: 18px;
+    }
+
+    .roles {
+        flex-direction: column;
+        /* ✅ stack roles */
+        gap: 4px;
+    }
+
+    #roles_sep {
+        display: none;
+        /* ✅ hide separator when stacked */
+    }
+
+    .intro_div p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 0a1ba109e4250578163d6f2a5f1a3f48653e96f5

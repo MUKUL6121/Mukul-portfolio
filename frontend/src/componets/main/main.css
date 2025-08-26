@@ -1,0 +1,14 @@
+.container {
+    border: 2px solid black;
+    /* padding: 20px; */
+    /* box-shadow: 0px 20px 20px black; */
+    margin-top: 20px;
+    border: none;
+    background-color: none;
+    height: auto;
+}
+
+.container a {
+    color: white;
+    font-size: 30px;
+}

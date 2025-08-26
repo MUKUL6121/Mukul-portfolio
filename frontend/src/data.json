@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "alarm",
+        "img": "src/assets/alarm.png"
+    },
+    {
+        "id": 2,
+        "name": "sps",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "today's_news",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "E-Mart",
+        "img": ""
+    }
+]
