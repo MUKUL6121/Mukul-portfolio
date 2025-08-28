@@ -43,7 +43,7 @@ function Header() {
                         <Link to="/contactMe">Contact Me</Link>
                     </div>
                     <div>
-                        <Link to="/feedbacks">Feedbacks</Link>
+{/*                         <Link to="/feedbacks">Feedbacks</Link> */}
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ function Header() {
                             <Link className="dropdown-item" to="/contactMe" onClick={() => setIsOpen(false)}>Contact Me</Link>
                         </li>
                         <li>
-                            <Link className="dropdown-item" to="/feedbacks" onClick={() => setIsOpen(false)}>Feedbacks</Link>
+{/*                             <Link className="dropdown-item" to="/feedbacks" onClick={() => setIsOpen(false)}>Feedbacks</Link> */}
                         </li>
                     </ul>
                 )}
