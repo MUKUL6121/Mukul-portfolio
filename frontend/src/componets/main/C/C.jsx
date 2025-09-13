@@ -20,7 +20,7 @@ function C() {
             alt: "sps game",
             title: "Stone,Paper,Scissor",
             tech: ["HTML", "JavaScript"],
-            link: "https://github.com/MUKUL6121/stone-paper-scissor.git"
+            link: "https://stone-paper-scissor-4q66.onrender.com"
         },
         {
             img: news_img,
