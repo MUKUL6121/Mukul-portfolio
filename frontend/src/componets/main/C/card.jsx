@@ -18,7 +18,7 @@ function Card() {
             alt: "sps game",
             title: "Stone,Paper,Scissor",
             tech: ["HTML", "JavaScript"],
-            link: "https://sps-game.onrender.com"
+            link: "https://github.com/MUKUL6121/stone-paper-scissor.git"
         },
         {
             img: news_img,
