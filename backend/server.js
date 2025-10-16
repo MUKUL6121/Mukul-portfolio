@@ -6,7 +6,7 @@ app.use(express.json());
 
 // ✅ CORS config
 var corsoptions = {
-    origin: ['http://localhost:5173', 'https://portfolio-qjz6.onrender.com', 'https://portfolio-qjz6.onrender.com/'],
+    origin: ['http://localhost:5173', 'https://portfolio-qjz6.onrender.com', 'https://portfolio-qjz6.onrender.com/','https://mukul-portfolio-2.onrender.com/'],
     methods: ['GET', 'POST'],
     optionsSuccessStatus: 200
 };
