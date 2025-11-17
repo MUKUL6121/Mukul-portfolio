@@ -34,7 +34,7 @@ function C() {
             alt: "e-mart",
             title: "E-Mart",
             tech: ["PHP", "MySQL"],
-            link: "https://e-mart.onrender.com"
+            link: ""
         },
     ];
 
