@@ -4,6 +4,7 @@ import img from '../../../assets/alarm.png';
 import news_img from '../../../assets/news.png'
 import cart_img from '../../../assets/cart.png'
 import sps_img from '../../../assets/sps.png';
+import Phy from './Phy.jsx';
 // import Card from './card'
 
 function C() {
