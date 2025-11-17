@@ -35,7 +35,7 @@ function C() {
             alt: "e-mart",
             title: "E-Mart",
             tech: ["PHP", "MySQL"],
-            link: ""
+            link: "{<phy/>}"
         },
     ];
 
