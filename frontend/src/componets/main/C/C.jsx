@@ -4,7 +4,6 @@ import img from '../../../assets/alarm.png';
 import news_img from '../../../assets/news.png'
 import cart_img from '../../../assets/cart.png'
 import sps_img from '../../../assets/sps.png';
-import { Phy } from './Phy.jsx';
 // import Card from './card'
 
 function C() {
@@ -35,7 +34,7 @@ function C() {
             alt: "e-mart",
             title: "E-Mart",
             tech: ["PHP", "MySQL"],
-            link: "<Phy/>"
+            link: "https://news-app-j00z.onrender.com"
         },
     ];
 
